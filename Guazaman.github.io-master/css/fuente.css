@@ -1,0 +1,34 @@
+p, li, h1, h3, a{
+	font-family: "Century Gothic";
+}
+@media screen and (min-width: 850px) and (max-width: 1080px){
+	.houdini{
+		display: none;
+	}
+}
+@media screen and (min-width: 450px) and (max-width: 680px){
+	.regla1{
+		font-family: "Comic Sans";
+	}
+}
+@media screen and (min-width: 450px) and (max-width: 680px){
+	.regla2{
+		font-weight: bold;
+	}
+}
+@media screen and (min-width: 450px) and (max-width: 680px){
+	.regla3{
+		font-size: 2em;
+	}
+}
+@media print{
+	div{
+		background-color: #FFFFFF;
+	}
+	p{
+		color: #1F8DD6;
+	}
+	img{
+		display: none;
+	}
+}
